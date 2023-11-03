@@ -1,0 +1,429 @@
+
+   
+   body {
+    background: #191919 url(img/bg.png) no-repeat; /* Цвет фона и путь к файлу */
+	background-position: top center;
+	justify-content: space-between
+   }
+
+	.logo:
+   {
+	  width:30%;
+    margin-top:-10px;
+	width: 215px;
+	height: 50px;
+	left: 300px;
+	top: 40px;
+
+	} 
+	section {
+  flex: 1;
+	}
+	
+	.column1 {
+    display: block;
+    padding: 10.5px;
+}
+	body {    
+    font-family: sans-serif;
+
+    min-height: 100vh; /* высота веб-страницы больше или равна высоте окна браузера */
+    margin: 0;
+}
+	.header{
+/* 	position: absolute;
+width: 56px;
+height: 24px;
+left: 1420px;
+top: 53px; */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+
+	}
+
+.parent {
+	position:relative ;
+	margin-left: 15%;
+    display: table;
+    width: 70%; /*Optional*/
+    table-layout: fixed; /*Optional*/
+    border-spacing: 10px; /*Optional*/
+}
+.parent1 {
+	position:relative ;
+	margin-left: 0%;
+    display: table;
+    width: 60%;
+	height:90px;/*Optional*/
+}
+.texte{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+color: #FFFFFF;
+}
+
+.column {
+ display: table-cell;
+padding:10.5px;
+
+}
+
+.line1{
+
+width:75px;	
+margin-top:-30px;
+border: 1px solid #FFFFFF;
+}
+.line2{
+
+width:51px;	
+margin-top:-30px;
+border: 1px solid #FFFFFF;
+}
+.line3{
+
+width:160px;	
+margin-top:-30px;
+border: 1px solid #FFFFFF;
+}
+a {
+    text-decoration: none; /* Убираем подчёркивание */
+   }
+.line4{
+
+width:77px;	
+margin-top:-30px;
+border: 1px solid #FFFFFF;
+}
+.line5{
+
+width:91px;	
+margin-top:-30px;
+border: 1px solid #FFFFFF;
+}
+.line6{
+
+width:30px;	
+margin-top:-3px;
+border: 1px solid #8C8C8C;
+}
+
+.logo
+{
+	align:right;
+	width:50%;
+}
+.paym
+{
+    margin-top: 132px;
+	background: #FFFFFF;
+	width:485px;
+	height:620px;
+	margin-left:10%;
+	margin-right:10%;
+	position:middle;
+	border-radius: 30px;
+}
+.paym1
+{
+	margin-top:200px;
+	background: #FFFFFF;
+	width:485px;
+	height:1000px;
+	margin-left:10%;
+	margin-right:10%;
+	position:middle;
+	border-radius: 30px;
+}
+.paymmenu
+{
+width: 59px;
+height: 15px;
+left: 1289px;
+top: 357px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+/* Gray d */
+
+color: #8C8C8C;	
+}
+
+
+option
+
+{
+
+    padding-left: 20px;
+
+    padding-top: 3px;
+
+    padding-bottom: 3px;
+
+}
+
+ 
+
+option:hover
+
+{
+
+    background-color: #eee;
+
+}
+
+ 
+
+.icon-ok
+
+{
+
+    background: url('img/usdt.png') no-repeat;
+
+    background-size: 20px;
+
+    padding-left: 20px;
+
+    background-position: 0 1px;
+
+}
+
+ 
+
+.icon-error
+
+{
+
+    background: url('/../images/icon-fail.png') no-repeat;
+
+    background-size: 20px;
+
+    padding-left: 20px;
+
+    background-position: 0 1px;
+
+}
+.ui-selectmenu-text {
+    display: block;
+    margin-right: 20px;
+    overflow: hidden;
+    text-overflow: hidden;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #191919;
+    position: absolute; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 13px;
+
+color: #FFFFFF;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.gamburger {
+	cursor: pointer;
+}
+
+.menu-opened {
+	display: block;
+}
+
+.menu-closed {
+	display: none;
+}
+
+.menu-btn{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right:0;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+ 
+.menu-btn > span,
+.menu-btn > span::before,
+.menu-btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+  transition-duration: .25s;
+}
+.menu-btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu-btn > span::after {
+  content: '';
+  top: 8px;
+}
+
+.menubox{
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #ECEFF1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  transition-duration: .25s;
+}
+.menu-item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: .25s;
+}
+.menu-item:hover {
+  background-color: #CFD8DC;
+}
+#menu-toggle{
+  opacity: 0;
+}
+.menu-btn{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right:0;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+ 
+.menu-btn > span,
+.menu-btn > span::before,
+.menu-btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+  transition-duration: .25s;
+}
+.menu-btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu-btn > span::after {
+  content: '';
+  top: 8px;
+}
+ 
+.menubox{
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  background-color: #ECEFF1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  transition-duration: .25s;
+}
+ 
+.menu-item {
+  display: block;
+  padding: 12px 24px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  transition-duration: .25s;
+}
+.menu-item:hover {
+  background-color: #CFD8DC;
+}
+ 
+   @media  screen and (max-width: 720px) {
+  .div-pc {
+    display: none;
+  }
+  .div-mobile {
+    display: block;
+  }
+}
+@media  screen and (min-width: 720px) {
+    .div-pc {
+    display: block;
+  }
+  .div-mobile {
+    display: none;
+  }
+}
+#menu-toggle{
+  opacity: 0;
+}
+ 
+#menu-toggle:checked ~ .menu-btn > span{
+  transform: rotate(45deg);
+}
+#menu-toggle:checked ~ .menu-btn > span::before{
+  top: 0;
+  transform: rotate(0);
+}
+#menu-toggle:checked ~ .menu-btn > span::after{
+  top: 0;
+  transform: rotate(90deg);
+}
+#menu-toggle:checked ~ .menubox{
+  visibility: visible;
+  left: 0;
+}
+
